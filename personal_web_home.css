@@ -1,0 +1,54 @@
+html, body {
+	height : 100%;
+}
+body {
+	background-color: #3db6b8;
+	background-image: url(https://s.aolcdn.com/hss/storage/midas/23ad929f3ee1182ab60f91ef66ec16d3/203511293/overwatch-ed.jpg);
+	background-size: cover;
+	background-blend-mode: darken;
+}
+.heading {
+	width: 600px;
+	height: 300px;
+	margin:auto;
+	position: absolute;
+	top: 0px;right: 0px;left: 0px;bottom: 0px;
+}
+.title1 {
+	display: block;
+	text-align: center;
+	font-size: 60pt;
+	color: white;
+	font-family: big john;
+}
+.title2 {
+	display: block;
+	text-align: center;
+	font-size: 15pt;
+	color: white;
+	font-family: serif;
+	margin-top: 15px;
+}
+.info {
+	margin: 50px auto;
+	display: block;
+	width: 180px;
+	height: 50px;
+	border: 3px solid white;
+	background-color: rgba(300,255,255,0);
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	border-radius: 5px;
+	font-size: 15px;
+	transition: background-color 1000ms, color 1000ms;
+}
+.info a {
+	text-decoration: none;
+	color: white;
+}
+.info:hover{
+	background-color: black;
+	color: #222;
+	cursor: pointer;
+}

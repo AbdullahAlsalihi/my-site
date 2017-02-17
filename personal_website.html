@@ -1,0 +1,114 @@
+<html>
+<head>
+	<title>OverWatch Game</title>
+	<link rel="stylesheet" type="text/css" href="personal_website.css">
+</head>
+<body>
+	
+	<img class="image1" src="image2.jpg" alt ="OverWatch team">
+	<img class="image1" src="image12.jpg" alt ="OverWatch team">
+	<img class="image1" src="image13.jpg" alt ="OverWatch team">
+	<ul>
+		<li><a href="personal_web_home.html">Home</a></li>
+		<li><a href="#videos">Videos</a></li>
+		<li><a href="personal_web_videos.html">Information</a></li>
+	</ul>
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+   			var i;
+    		var x = document.getElementsByClassName("image1");
+    		for (i = 0; i < x.length; i++) {
+       				x[i].style.display = "none";  
+    			}
+    		myIndex++;
+    		if (myIndex > x.length) {myIndex = 1}    
+    			x[myIndex-1].style.display = "block";  
+    			setTimeout(carousel, 9000);    
+				}
+	</script>
+
+	<div class="TopInfo">
+		<h3>What is OverWatch </h3>
+		<p>
+			Overwatch is a team-based multiplayer first-person shooter video game developed and published by Blizzard Entertainment. It was released in May 2016 for Microsoft Windows, PlayStation 4, and Xbox One.
+
+			Overwatch puts players into two teams of six, with each player selecting one of several pre-defined hero characters with unique movement, attributes, and abilities; these heroes are divided into four classes: Offense, Defense, Tank and Support. Players on a team work together to secure and defend control points on a map and/or escort a payload across the map in a limited amount of time. Players gain cosmetic rewards that do not affect gameplay, such as character skins and victory poses, as they continue to play in matches. The game was launched with casual play, while Blizzard added competitive ranked play about a month after launch. Additionally, Blizzard has developed and added new characters, maps, and game modes post-release, while stating that all Overwatch updates will remain free, with the only additional cost to players being microtransactions to earn additional cosmetic rewards.
+			<br><br>
+			Overwatch is Blizzard's fourth major franchise, and came about following the 2014 cancellation of the ambitious massively multiplayer online role-playing game Titan. A portion of the Titan team came up with the concept of Overwatch, based on the success of team-based first-person shooters like Team Fortress 2 and the growing popularity of multiplayer online battle arenas, creating a hero-based shooter that emphasized teamwork. Some elements of Overwatch borrow assets and concepts from the canceled Titan project. After establishing the narrative of an optimistic near-future Earth setting after a global crisis, the developers aimed to create a diverse cast of heroes that spanned genders and ethnicities as part of this setting. Significant time was spent adjusting the balance of the characters, making sure that new players would still be able to have fun while skilled players would present each other with a challenge.
+			<br><br>
+			Overwatch was unveiled at BlizzCon 2014 in a fully playable state, and was in a closed beta from late 2015 through early 2016. An open beta in May 2016 drew in more than 9.7 million players. The release of the game was promoted with short animated videos to introduce the game's narrative and each of the characters. Upon official release, Overwatch received universal acclaim from critics, who praised its accessibility and enjoyable gameplay. Overwatch has become recognized as an eSport, and in addition to sponsoring tournaments, Blizzard has announced plans to help support professional league play starting in 2017.
+
+		</p>
+
+	</div>
+    <!--
+	<div class="circleImages">
+		<img src="char1.jpg">
+		<img src="char2.jpg">
+		<img src="char3.jpg">
+		<img src="char5.webp">
+		<img src="char4.jpg">
+		<p></p>
+	</div>
+-->
+	<div class="topInfo2">
+		<h3> How you can play it </h3>
+		<p>Characters in Overwatch come in four varieties: Offense, Defense, Tank, and Support. These roles serve to categorize the heroes of Overwatch by similar characteristics that can be used to describe them and their play style. The first appearance of an Overwatch character in a released game was on April 19, 2016 in Heroes of the Storm.
+			<br><br>
+		<b>Offense: </b>Offense characters have high mobility and are known for their ability to deal large amounts of damage. To balance this, offense characters have a low number of hit points.<br><br>
+		<b>Defense: </b>Defense characters excel at protecting specific locations and creating choke points. They can also provide several means of field support, such as sentry turrets and traps.<br><br>
+		<b>Tank: </b>Tank characters have the most hit points out of all the characters in the game. Because of this, they are able to draw enemy fire away from their teammates to themselves, so as to disrupt the enemy team.<br><br>
+		<b>Support: </b>Support characters are utility characters that have abilities that enhance their own team and/or weaken the enemy team. They might not deal the most damage or have the most hit points, but the buffs and debuffs they provide ensure that their teammates who do will make short work of their opponents.
+		</p>
+	</div>
+
+	<div class="charecters">
+		<img src="char1.jpg">
+		<img src="char2.jpg">
+	</div>
+
+	<div class="topInfo3">
+		<h3> Map Types </h3>
+		<p>
+			In standard casual and competitive play, and in some of the special Arcade modes, maps are randomly selected for that match. Each Overwatch map has a specific game mode that it supports, which include:<br><br>
+
+			<strong>Assault: </strong>The attacking team is tasked with capturing two target points in sequence on the map, while the defending team must stop them.<br>
+			<strong>Escort: </strong>The attacking team is tasked with escorting a payload to a certain delivery point before time runs out, while the defending team must stop them. The payload vehicle moves along a fixed track when any player on the attacking team is close to it, but will stop if a defending player is nearby; should no attacker be near the vehicle, it will start to move backwards along the track. Passing specific checkpoints will extend the match time and prevent the payload from moving backwards from that point.<br>
+			<strong>Hybrid (Assault/Escort): </strong>The attacking team has to capture the payload and escort it to its destination, while the defending team tries to hold them back.<br>
+			<strong>Control: </strong>Each team tries to capture and maintain a common control point until their capture percentage reaches 100%. This game mode is played in a best-of-three format.<br><br>
+			Each mode includes an "Overtime" period lasting for only a few seconds if an objective is not yet completed by the attacking team, while requiring that the attacking team is actively advancing the objective. For example, if the attackers have not moved the payload to the next checkpoint in Escort, or have failed to take the control point held by the other team in Control, then they will receive additional time if they are still near the payload or control point. Overtime continues if attackers continuously push at their objective, but will end quickly if they are kept away from it.<br><br>
+
+			A mid-November 2016 update included a new map, "Ecopoint: Antarctica", which is not part of the normal map selection, but instead designed for special small-team Elimination modes within the Arcade, including a three-on-three and a one-on-one mode. In these modes, if a player-character is killed, they do not respawn until the next round, with each round ending once all members on a team have been killed or a time limit reached. Rounds are played until a certain point score by one team is reached.<br><br>
+
+			Most of the game's maps are inspired by real-world locations;[15] the first four maps, "King's Row", "Hanamura", "Temple of Anubis", and "Ilios" are inspired by London, Japan, the ruins of Ancient Egypt, and Greece respectively.
+		</p>
+	</div>
+
+
+	<div class="topInfo4">
+		<h3> OverWatch League </h3>
+		<p>
+			During the 2016 Blizzcon, Blizzard announced their plans for their Overwatch League, using an organization of permanent teams in league placements similar to more traditional physical sports, rather than the use of relegation and promotion used in a series like League of Legends Championship Series. Blizzard will help to organize potential team owners and aim to include more geographically-local teams to participate, which they hope will help spark more interest in eSports from spectators and potential sponsors through new activities around supporting a local team. Blizzard anticipates the Overwatch League will have a seven-figure payoff for the winning team at the end of a season, but plans on paying a salary to all players within the league. The first, shortened season of the League is expected to start in Q3 2017, but will begin in full seasons starting in 2018, with the League having half-year long seasonal breaks starting in Q4 of that year. A meeting for prospective team owners was held at Blizzcon after the announcement, with New England Patriots’ owner Robert Kraft, and Los Angeles Rams owner Stan Kroenke among the attendees.
+		</p>
+	</div>
+
+	<div class="topInfo5">
+		<button> Thank You </button>
+	</div>	
+	<div>
+	<a name="videos">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/to8yh83jlXg?rel=0" frameborder="0" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/oJ09xdxzIJQ?rel=0" frameborder="0" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/cPRRupAM4DI?rel=0" frameborder="0" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/vPcR1_gt3eY?rel=0" frameborder="0" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/sB5zlHMsM7k?rel=0" frameborder="0" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/4fPmo5y0VBw?rel=0" frameborder="0" allowfullscreen></iframe>
+	</a>
+	</div>
+	<footer> @copyright 2017 made by: Abdullah Al-Salihi </footer>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+body, html {
+	height: 100%;
+}
+.first {
+	text-align: center;
+	font-family: big john;
+	font-size: 60pt;
+	display: block;
+	margin:auto;
+}
+img {
+	background-size: cover;
+	background-position:center;
+	margin: 0px;
+}
+footer {
+	background-color: black;
+	text-align: center;
+	font-family: big john;
+	color: white;
+	padding: 15px;
+}
